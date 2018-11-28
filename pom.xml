@@ -7,6 +7,7 @@
     <groupId>heimi.web</groupId>
     <artifactId>web-ssm</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
     <dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
@@ -136,7 +137,9 @@
         <artifactId>commons-collections</artifactId>
         <version>3.2</version>
     </dependency>
-
-
+    </dependencies>
+    <build>
+        <finalName>ssm</finalName>
+    </build>
 
 </project>
