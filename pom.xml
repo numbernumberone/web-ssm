@@ -140,6 +140,16 @@
     </dependencies>
     <build>
         <finalName>ssm</finalName>
+        <resources>
+            <resource>
+                <directory>/Users/wr/Desktop/python/web-ssm/SqlMapConfig.xml</directory>
+                <includes>
+                    <include>SqlMapConfig.xml</include>
+                </includes>
+            </resource>
+        </resources>
     </build>
+
+
 
 </project>

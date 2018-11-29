@@ -17,7 +17,7 @@ public class Mybatis_first {
     @Before
     public void createSqlSessionFactory() throws IOException {
         // 配置文件
-        String resource = "web-ssm/SqlMapConfig.xml";
+        String resource = "SqlMapConfig.xml";
         InputStream inputStream = Resources.getResourceAsStream(resource);
 
         // 使用SqlSessionFactoryBuilder从xml配置文件中创建SqlSessionFactory
@@ -28,7 +28,7 @@ public class Mybatis_first {
 
     // 根据 id查询用户信息
     @Test
-    public void testFindUserById() {
+    public void testFindUserById1() {
         // 数据库会话实例
         SqlSession sqlSession = null;
         try {
@@ -47,6 +47,7 @@ public class Mybatis_first {
         }
 
     }
+
 
     // 根据用户名称模糊查询用户信息
     @Test
