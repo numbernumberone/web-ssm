@@ -17,7 +17,7 @@ public class Mybatis_first {
     @Before
     public void createSqlSessionFactory() throws IOException {
         // 配置文件
-        String resource = "SqlMapConfig.xml";
+        String resource = "web-ssm/SqlMapConfig.xml";
         InputStream inputStream = Resources.getResourceAsStream(resource);
 
         // 使用SqlSessionFactoryBuilder从xml配置文件中创建SqlSessionFactory
