@@ -1,4 +1,5 @@
 package soundsystem;
 
-public class CompactDisc {
+public interface CompactDisc {
+    void play();
 }
