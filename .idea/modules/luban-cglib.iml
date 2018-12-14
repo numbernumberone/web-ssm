@@ -3,7 +3,6 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../luban-cglib">
-      <sourceFolder url="file://$MODULE_DIR$/../../luban-cglib/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/../../luban-cglib/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../luban-cglib/build" />
       <excludeFolder url="file://$MODULE_DIR$/../../luban-cglib/out" />
