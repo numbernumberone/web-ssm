@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LogTest/LogTest.iml" filepath="$PROJECT_DIR$/LogTest/LogTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/luban-cglib_main.iml" filepath="$PROJECT_DIR$/.idea/modules/luban-cglib_main.iml" group="luban-cglib" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/luban-cglib_test.iml" filepath="$PROJECT_DIR$/.idea/modules/luban-cglib_test.iml" group="luban-cglib" />
       <module fileurl="file://$PROJECT_DIR$/ssm.iml" filepath="$PROJECT_DIR$/ssm.iml" />
