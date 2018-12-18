@@ -5,7 +5,7 @@
          version="3.1">
     <servlet>
         <servlet-name>SayHello</servlet-name>
-        <servlet-class>com.mycompany.SayHello</servlet-class>
+        <servlet-class>com.mmall.controller.SayHello</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>SayHello</servlet-name>
