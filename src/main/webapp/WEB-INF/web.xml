@@ -3,12 +3,5 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
-    <servlet>
-        <servlet-name>SayHello</servlet-name>
-        <servlet-class>com.mmall.controller.SayHello</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>SayHello</servlet-name>
-        <url-pattern>/sayhello</url-pattern>
-    </servlet-mapping>
+
 </web-app>
